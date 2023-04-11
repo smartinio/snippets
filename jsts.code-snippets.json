@@ -1,0 +1,60 @@
+{
+	"Arrow function": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "fn",
+		"body": [
+			"() => {",
+			"  $0",
+			"}"
+		]
+	},
+
+	"Async arrow function": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "afn",
+		"body": [
+			"async () => {",
+			"  $0",
+			"}"
+		]
+	},
+
+	"Arrow function argument": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "fna",
+		"body": [
+			"($1) => {",
+			"  $0",
+			"}"
+		]
+	},
+
+	"Async arrow function argument": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "afna",
+		"body": [
+			"async ($1) => {",
+			"  $0",
+			"}"
+		]
+	},
+
+	"Jest Mock Require Actual": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "jmra",
+		"body": [
+			"jest.mock($1, () => ({",
+			"  ...jest.requireActual($1),",
+			"  $2: jest.fn($0),",
+			"}))"
+		]
+	},
+
+	"JSON log": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "jlo",
+		"body": [
+			"console.log(JSON.stringify($1, null, 2))"
+		]
+	}
+}
