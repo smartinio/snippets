@@ -9,6 +9,32 @@
 		]
 	},
 
+	"Arrow function (implicit)": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "ifn",
+		"body": [
+			"() => $0"
+		]
+	},
+
+	"Arrow function (argument)": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "fna",
+		"body": [
+			"($1) => {",
+			"  $0",
+			"}"
+		]
+	},
+
+	"Arrow function (implicit, argument)": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "ifna",
+		"body": [
+			"($1) => $0"
+		]
+	},
+
 	"Async arrow function": {
 		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "afn",
@@ -19,17 +45,7 @@
 		]
 	},
 
-	"Arrow function argument": {
-		"scope": "javascript,javascriptreact,typescript,typescriptreact",
-		"prefix": "fna",
-		"body": [
-			"($1) => {",
-			"  $0",
-			"}"
-		]
-	},
-
-	"Async arrow function argument": {
+	"Async arrow function (argument)": {
 		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "afna",
 		"body": [
